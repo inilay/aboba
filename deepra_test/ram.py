@@ -1,5 +1,6 @@
 import argparse
 import time
+import sys
  
 def generate_ram_load(interval=int(sys.argv[1]),amount=int(sys.argv[2])):
     GB = 1024 * 1024 * 1024
